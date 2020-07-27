@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+  background-color: rgba(128, 150, 172, 0.1);
+}
+
+.main {
+  width: 100%;
+}
+  
+.first {
+  width: 40%;
+  background-color: aqua;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.foot {
+  border: 2px solid red;
+}
+
+.third {
+  width: 100%;
+  background-color: rgb(100, 133, 133);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 {
+  margin-top: 10px;
+}
+
+.third4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello {
+  width: 25%;
+}
+
+.icons {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.icons i {
+  width: 20px;
+  color: black;
+}
+
+.third1 {
+    width: 100%;
+    background-color: rgb(94, 61, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+
+  }
+
+  .third3 {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.heroku {
+  width: 70%;
+}
+
+.second {
+  width: 60%;
+  float: right;
+  background-color: rgb(39, 85, 131);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.study {
+  color: black;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first,
+  .second {
+    width: 100%;
+  }
+  
+  .first {
+    position: inherit;
+  }
+}
